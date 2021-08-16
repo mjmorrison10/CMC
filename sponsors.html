@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C.M.C. California Motorcycle Community</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Jdenticon -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jdenticon@3.1.0/dist/jdenticon.min.js"
+      async
+      integrity="sha384-VngWWnG9GS4jDgsGEUNaoRQtfBGiIKZTiXwm9KpgAeaRn6Y/1tAFiyXqSzqC8Ga/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-gray-800">
+      <!-- header -->
+    <header class="flex-col bg-gray-900 p-2">
+      <nav class="nav bg-black h-26 md:h-16 container mx-auto p-1 flex rounded-3xl overflow-hidden">
+        <!-- CMC Logo -->
+        <div class="cmc-logo h-full w-24 md:ml-10 hidden md:block">
+          <img src="./images/CMC Logo.png" class="h-full rounded-2xl" />
+        </div>
+
+        <!-- Links -->
+        <ul
+          class=" ul-list
+          text-gray-500 flex flex-wrap md:flex-nowrap mx-auto space-x-4 justify-center items-center"
+        >
+          <a href="./index.html">
+              <li class="hover:bg-gray-900 hover:bg-opacity-85 py-2 px-4 rounded-2xl cursor-pointer">
+                Home Page
+              </li>
+          </a>
+          <a href="./upcomingevents.html">
+              <li class="hover:bg-gray-900 hover:bg-opacity-85 py-2 px-4 rounded-2xl cursor-pointer">
+                Upcoming Events
+              </li>
+          </a>
+          <a href="./aboutus.html">
+              <li class="hover:bg-gray-900 hover:bg-opacity-85 py-2 px-4 rounded-2xl cursor-pointer">
+                About Us
+              </li>
+          </a>
+          <a href="./sponsors.html">
+              <li class="hover:bg-gray-900 hover:bg-opacity-85 py-2 px-4 rounded-2xl cursor-pointer">
+                Sponsors
+              </li>
+          </a>
+        </ul>
+
+        <!-- Social Media -->
+        <div class="social-media text-gray-500 items-center justify-center flex text-3xl m-2 hidden md:flex">
+          <svg
+            data-jdenticon-value="CaliMotorcycleCommunity"
+            class="h-full mr-6"
+          >
+          </svg>
+          <a href="https://www.facebook.com/groups/CaliforniaMotorcycleCommunity/"><i class="fab fa-facebook mx-2 cursor-pointer duration-500 hover:text-gray-400 hover:scale-105 transform"></i></a>
+          <a href="https://www.instagram.com/ca_motorcycle_community/"><i class="fab fa-instagram mx-2 cursor-pointer duration-500 hover:text-gray-400 hover:scale-105 transform"></i></a>
+          <i class="fas fa-envelope mx-2 cursor-pointer duration-500 hover:text-gray-400 hover:scale-105 transform"></i>
+        </div>
+        <div class="header-bar text-gray-500 text-3xl m-2 mr-4 md:hidden cursor-pointer">
+            <i class="fas fa-bars"></i>
+        </div>
+        
+      </nav>
+    </header>
+
+    <!-- Main body section -->
+    <section class="flex border-gray-800 border-t-2">
+        <!-- Left sidebar -->
+        <div class="sidebar w-1/5 h-screen pt-4 hidden md:block">
+ 
+        </div>
+        <!-- Middle section -->
+        <div class="middle bg-gray-900 w-full  py-10 px-10 md:px-28">
+           
+          <h1 class="text-center font-bold text-gray-500 text-3xl mb-4">California Motorcycle Community (C.M.C.) Sponsors</h1>
+          
+          
+          <!-- Modal Image -->
+            <!-- Trigger the Modal -->
+            <img id="myImg" src="./images/cmcBanner.jpg">
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+          
+           
+            <div class="flex justify-evenly items-center flex-wrap">
+              <a href="https://www.sharksquadmotorcycleattorneys.com/">
+                <div class="text-gray-500 py-2 px-4 m-2 mt-4 bg-blue-900 bg-opacity-50 hover:bg-opacity-75 text-center rounded-2xl">
+                  <h2>Shark Squad Motorcycle Attorneys</h2>
+              
+                </div>
+              </a>
+              <a href="https://motorhelmets.com/">
+                <div class="text-gray-500 py-2 px-4 m-2 mt-4 bg-blue-900 bg-opacity-50 hover:bg-opacity-75 text-center rounded-2xl">
+                  <h2>MotorHelmets</h2>
+              
+                </div>
+              </a>
+              <a href="https://www.facebook.com/people/RR-customs/100057469598359/">
+                <div class="text-gray-500 py-2 px-4 m-2 mt-4 bg-blue-900 bg-opacity-50 hover:bg-opacity-75 text-center rounded-2xl">
+                  <h2>RR Customs</h2>
+              
+                </div>
+              </a>
+            </div>
+
+
+
+        </div>
+        <!-- Right sidebar Contact Information -->
+        <div class="sidebar w-1/5 hidden md:block text-center">
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="h-full flex text-gray-300 flex-col justify-center text-center items-center py-8 px-14 md:px-44">
+        <div class="text-lg">California Motorcycle Community is a safe, welcoming community for any biker, rider, or motorcyclists on the road in California. Contact us to join!</div>
+        <div class="text-sm m-2">Copyright &copy; 2021 - Douglas Peralta</div>
+
+    </footer>
+
+
+<script src="script.js"></script>
+  </body>
+</html>
